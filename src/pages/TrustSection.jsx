@@ -31,7 +31,7 @@ function TrustSection() {
         <h2 className="text-3xl md:text-5xl font-bold">They Trust Us</h2>
         <p className="text-gray-400 mt-2 md:text-2xl font-light">And so can you</p>
       </div>
-      <div className="flex flex-wrap justify-center items-center gap-10 max-w-4xl">
+      <div className="flex flex-wrap justify-center items-center gap-10 max-w-4xl mx-auto">
         <LogoGrid logos={logos} />
       </div>
     </section>
