@@ -4,13 +4,12 @@ import Footer from './pages/Footer'
 import Page from './Page'
 function App() {
   return (
-    <div className='bg-black font-poppin'>
-      <div className='mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 '>
-      <Navbar/>
+    <div className='bg-black font-poppin min-h-screen overflow-x-hidden'>
+      <div className="mx-auto w-full max-w-screen-xl px-4 sm:px-6 lg:px-8">
+      <Navbar/>  
       <Page/>
       <Footer/>
       </div>
- 
     </div>
   )
 }

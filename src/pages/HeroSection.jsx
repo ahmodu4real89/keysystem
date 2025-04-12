@@ -21,12 +21,10 @@ function HeroSection() {
   ];
 
   return (
-    <section className="relative bg-no-repeat bg-cover bg-[linear-gradient(to_right,_#0f172a,_#2e1065,_#4f46e5)] py-24">
-      <div className="max-w-6xl mx-auto px-4 text-center text-white">
+    <section className="relative bg-no-repeat bg-cover bg-[linear-gradient(to_right,_#0f172a,_#2e1065,_#4f46e5)] py-24 text-center text-white">
         <div className="my-8">
         <span className="relative rounded-full px-4 py-2 text-xl bg-[#2E6D9C] border-2 border-white">Welcome to KeySystem</span>
         </div>
-     
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
           IT Consulting for <br />
           Forward-thinking Businesses
@@ -57,7 +55,7 @@ function HeroSection() {
             <img  key={partner.name} src={partner.src} alt={partner.name} className="h-[70px] w-[160px] object-contain" />
           ))}
         </div>
-      </div>
+      
     </section>
   );
 }
